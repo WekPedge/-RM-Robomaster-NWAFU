@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="0" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" SerialNo="0" IP="" TargetDevice="unspecified" TargetInterface="SWD" InterfaceSpeed="10" />
+            </JLink>
+            <ElfFile Name="E:\robomaster\ÐÂÄ£°å\2018_4_18\MDK-ARM\HERO_2017_2\HERO_2017_2.axf" />
+            <DataFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="pidout1" Address="0x20000114" Type="float" Size="4" IsSigned="0" ShowAsHex="1" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="" Scope="1" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pidout2" Address="0x20000118" Type="float" Size="4" IsSigned="0" ShowAsHex="1" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="" Scope="1" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
